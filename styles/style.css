@@ -185,6 +185,9 @@ body{
 }
 @media (min-width: 320px) and (max-width: 480px){
     .apresentacao{
-        padding: 5% 0%;
+        padding: 5% 10%; 
+    }
+    .apresentacao__conteudo__titulo{
+        font-size: 1.3rem;
     }
 }

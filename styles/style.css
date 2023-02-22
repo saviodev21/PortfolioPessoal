@@ -190,4 +190,7 @@ body{
     .apresentacao__conteudo__titulo{
         font-size: 1.3rem;
     }
+    .apresentacao__conteudo__buttons__button{
+        width: 30%;
+    }
 }

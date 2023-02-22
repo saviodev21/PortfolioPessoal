@@ -136,6 +136,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: .8rem;
 
     text-decoration: none;
@@ -158,9 +159,6 @@ body{
 .apresentacao__conteudo__buttons__button:hover{
     background-color: var(--cor-hover);
 }
-/* .icons{
-    width: 25%;
-} */
 
 @media (max-width: 915px){
     .cabecalho{
@@ -187,10 +185,18 @@ body{
     .apresentacao{
         padding: 5% 10%; 
     }
+    .apresentacao__conteudo{
+        /* faz com que o texto preencha todo padding da classe mae*/
+        width: auto;
+    }
+    .apresentacao__conteudo__texto{
+        font-size: 1.2rem;
+    }
     .apresentacao__conteudo__titulo{
         font-size: 1.3rem;
     }
     .apresentacao__conteudo__buttons__button{
-        width: 30%;
+        width: 35%;
+
     }
 }

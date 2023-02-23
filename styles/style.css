@@ -87,7 +87,7 @@ body{
 }
 .apresentacao__conteudo{
     /* responsividade */
-    width: 50%;
+    width: 58%;
     /* responsividade */
     /* width: 45rem; */
     display: flex;
@@ -109,7 +109,7 @@ body{
 
 .apresentacao__imagem{
     /* responsividade */
-    width: 35%;
+    width: 28%;
     /* responsividade */
     border-radius: 10%;
     border: 3px solid var(--blue);

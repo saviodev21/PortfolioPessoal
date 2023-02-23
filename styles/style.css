@@ -10,6 +10,7 @@
     --black:#000;
     --background: #171d1f;
     --white-text: #DCD7C9;
+    --white: #fff;
     --cor-hover: #3F4E4F;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -87,7 +88,7 @@ body{
 }
 .apresentacao__conteudo{
     /* responsividade */
-    width: 58%;
+    width: 50%;
     /* responsividade */
     /* width: 45rem; */
     display: flex;
@@ -103,7 +104,7 @@ body{
     margin-top: 1rem;
     font-size: 1.4rem;
     font-family: var(--fonte-secundaria);
-    padding-right: 5rem;
+    padding-right: 3rem;
     color: var(--white-text);
 }
 
@@ -152,7 +153,7 @@ body{
 
     text-align: center;
     /* responsividade */
-    width: 25%;
+    width: 17%;
     /* responsividade */
     padding: .4rem 1.5rem;
 }
@@ -180,10 +181,14 @@ body{
     .apresentacao__conteudo__subtitulo{
         font-size: 1.2rem;
     }
+    .apresentacao__conteudo__buttons__button{
+        width: 35%;
+
+    }
 }
-@media (min-width: 320px) and (max-width: 480px){
+@media (min-width: 330px) and (max-width: 740px){
     .apresentacao{
-        padding: 5% 10%; 
+        padding: 5% 8%; 
     }
     .apresentacao__conteudo{
         /* faz com que o texto preencha todo padding da classe mae*/
@@ -195,8 +200,15 @@ body{
     .apresentacao__conteudo__titulo{
         font-size: 1.3rem;
     }
+    .apresentacao__conteudo__texto{
+        font-size: 1.2rem;
+        color: var(--white);
+    }
     .apresentacao__conteudo__buttons__button{
         width: 35%;
 
+    }
+    .apresentacao__imagem{
+        width: 25%;
     }
 }

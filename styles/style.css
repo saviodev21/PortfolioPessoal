@@ -209,6 +209,13 @@ body{
 
     }
     .apresentacao__imagem{
+        width: 28%;
+    }
+
+}
+@media (min-width: 380px) and (max-width: 740px){
+    .apresentacao__imagem{
         width: 25%;
     }
+
 }

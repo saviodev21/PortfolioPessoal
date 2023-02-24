@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
 *{
     margin: 0;
 
@@ -88,7 +88,7 @@ body{
 }
 .apresentacao__conteudo{
     /* responsividade */
-    width: 50%;
+    width: auto;
     /* responsividade */
     /* width: 45rem; */
     display: flex;
@@ -96,6 +96,7 @@ body{
     gap: .7rem;
 
 }
+
 .apresentacao__conteudo__titulo{
     font-size: 2rem;
     font-family: var(--fonte-primaria);
@@ -106,6 +107,32 @@ body{
     font-family: var(--fonte-secundaria);
     padding-right: 3rem;
     color: var(--white-text);
+}
+.apresentacao__kills{
+    padding: 5% 7%; 
+    /* justify-content: space-between; */
+    /*separando os elementos section e img*/
+    /* gap: 4rem; */
+}
+.apresentacao__conteudo__kills{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--white-text);
+    font-family: var(--fonte-secundaria);
+}
+.apresentacao__conteudo__kills__texto{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 0% 5% 0% 5%;
+
+    font-size: 1.4rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: var(--white-text);
+}
+.apresentacao__conteudo__kills__li{
+    margin: 3% 3% 2% 3%;
 }
 
 .apresentacao__imagem{
@@ -208,7 +235,11 @@ body{
         width: 35%;
     }
     .apresentacao__imagem{
-        width: 25%;
+        width: 28%;
+    }
+
+    .apresentacao__conteudo__kills__texto{
+        font-size: 1.2rem;
     }
 
 }

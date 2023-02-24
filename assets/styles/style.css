@@ -104,9 +104,11 @@ body{
     background-color:transparent;
     color: var(--blue);
 }
+
 /*hover do alterar tema*/
 #tema:hover{
     color: var(--cor-hover-blue);
+    
 }
 
 
@@ -289,6 +291,7 @@ body{
     }
     .apresentacao__conteudo__titulo{
         font-size: 1.3rem;
+        font-family: 'Nunito Sans', sans-serif;
     }
     .apresentacao__conteudo__texto{
         font-size: 1.2rem;

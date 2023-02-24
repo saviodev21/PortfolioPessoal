@@ -108,14 +108,13 @@ body{
     padding-right: 3rem;
     color: var(--white-text);
 }
+
+/* parte de skills */
 .apresentacao__kills{
     padding: 5% 7%; 
-    /* justify-content: space-between; */
-    /*separando os elementos section e img*/
-    /* gap: 4rem; */
 }
 .apresentacao__conteudo__kills{
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-size: 1.6rem;
     text-align: center;
     color: var(--white-text);
@@ -132,8 +131,10 @@ body{
     color: var(--white-text);
 }
 .apresentacao__conteudo__kills__li{
-    margin: 3% 3% 2% 3%;
+    margin: 2% 4% 2% 4%;
 }
+/* fim da parte de skills */
+
 
 .apresentacao__imagem{
     /* responsividade */
@@ -238,13 +239,12 @@ body{
         width: 28%;
     }
 
+    /* aqui é a parte de skills */
     .apresentacao__conteudo__kills__texto{
         font-size: 1.2rem;
     }
+    .apresentacao__conteudo__kills__li{
+        margin: 5% 5% 5% 5%;
+    }
 
 }
-/* @media (max-width: 740px){
-    .apresentacao__imagem{
-        width: 25%;
-    }
-} */

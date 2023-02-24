@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <script src="https://kit.fontawesome.com/4ad1e7b11c.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
             <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <button id="theme-toggle">
+                <i id="tema" class="fa-solid fa-circle-half-stroke fa-xl"></i>
+            </button>
           </nav>
     </header>
 
@@ -30,24 +35,24 @@
             </p>
             
         </section>
-            <img class="apresentacao__imagem" src="/images/teste2.jpeg" alt="Foto de savio Santos">
+            <img class="apresentacao__imagem" src="/assets/images/teste2.jpeg" alt="Foto de savio Santos">
     </main>
 
     <section>
         <div class="apresentacao__conteudo__buttons">
             <h2 class="apresentacao__conteudo__subtitulo">Projetos e experiencias:</h2>
             <a  href="/projects.html" class="apresentacao__conteudo__buttons__button" href="https://instagram.com/savio_dev">
-                <img class="icons" src="/images/instagram.png" alt="imagem da logo do instagram">
-                Projects
+                <i style="color: #72FFFF;" class="fa-brands fa-instagram fa-xl"></i>
+                Instagram 
             </a>
             <a  href="/experience.html" class="apresentacao__conteudo__buttons__button" href="https://instagram.com/savio_dev">
-                <img class="icons" src="/images/linkedin.png" alt="imagem da logo do LinkedIn">
-                Experience
+                <i style="color: #72FFFF;" class="fa fa-linkedin-square fa-xl"></i>
+                LinkedIn
             </a>
             
             <a  href="/softkills.html" class="apresentacao__conteudo__buttons__button" href="https://instagram.com/savio_dev">
-                <img class="icons" src="/images/gitHub2.png" alt="imagem da logo do GitHub"> 
-                -----------
+                <i style="color: #72FFFF;" class="fa fa-github fa-xl"></i>
+                GitHub
             </a>
         </div>
     </section>
@@ -55,5 +60,6 @@
     <footer class="rodape">
             <p>Desenvolvido por Sávio Santos da Silva.</p>
     </footer>
+    <script src="/assets/script.js"></script>
 </body>
 </html>

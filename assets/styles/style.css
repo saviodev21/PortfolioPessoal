@@ -12,6 +12,7 @@
     --white-text: #DCD7C9;
     --white: #fff;
     --cor-hover: #3F4E4F;
+    --cor-hover-blue: #72FFFF;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -39,7 +40,7 @@ html{
     color: var(--blue);
 }
 .cabecalho__menu__link:hover{
-    color: #72FFFF;
+    color: var(--cor-hover-blue)
 }
 
 /* Alinha os links na direita */
@@ -72,6 +73,58 @@ body{
     background-color: var(--background);
     color: var(--white-text);
 }
+
+/* tema dark */
+.light {
+	background-color: #f3f3f3; /*cor de fundo do tema dark*/
+	color: var(--black); 
+    /*cor de texto do tema dark*/
+}
+
+.light .cabecalho__menu__link{
+    color: var(--black);
+}
+.light .cabecalho__menu__link:hover{
+    color: var(--blue);
+}
+.light #tema{
+    color: #000;
+}
+.light #tema:hover{
+    color: #22D4FD;
+}
+
+.light section p{
+    color: var(--black);
+}
+
+/* cor do button */
+#theme-toggle{
+    border: none;
+    background-color:transparent;
+    color: var(--blue);
+}
+/*hover do alterar tema*/
+#tema:hover{
+    color: var(--cor-hover-blue);
+}
+
+
+.light .apresentacao__conteudo__buttons__button{
+    background-color: var(--background);
+    border: none;
+}
+.light .apresentacao__conteudo__buttons__button:hover{
+    background-color: #3e3736;
+}
+
+.light .apresentacao__conteudo__kills{
+    color: var(--black);
+}
+.light .apresentacao__conteudo__kills__texto{
+    color: var(--black);
+}
+/* fim tema dark */
 
 
 .apresentacao{
@@ -183,11 +236,15 @@ body{
     /* responsividade */
     width: 17%;
     /* responsividade */
-    padding: .4rem 1.5rem;
+    padding: .7rem 1.5rem;
 }
 .apresentacao__conteudo__buttons__button:hover{
     background-color: var(--cor-hover);
 }
+
+
+
+
 
 @media (max-width: 915px){
     .cabecalho{

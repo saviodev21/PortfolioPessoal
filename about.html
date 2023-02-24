@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <script src="https://kit.fontawesome.com/4ad1e7b11c.js" crossorigin="anonymous"></script>
     <title>Sobre mim</title>
 </head>
 <body>
@@ -12,6 +13,9 @@
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
             <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <button id="theme-toggle">
+                <i id="tema" class="fa-solid fa-circle-half-stroke fa-xl"></i>
+            </button>
           </nav>
     </header>
 
@@ -32,7 +36,7 @@
             </p>
         </section>
 
-        <img class="apresentacao__imagem" src="/images/teste2.jpeg" alt="Foto de savio Santos">
+        <img class="apresentacao__imagem" src="/assets/images/teste2.jpeg" alt="Foto de savio Santos">
         
     </main>
 
@@ -61,15 +65,15 @@
         <div class="apresentacao__conteudo__buttons">
             <h2 class="apresentacao__conteudo__subtitulo">Acesse as minhas redes:</h2>
             <a class="apresentacao__conteudo__buttons__button" href="https://instagram.com/savio_dev">
-                <img src="/images/instagram.png" alt="imagem da logo do instagram">
-                Instagram
+                <i style="color: #72FFFF;" class="fa-brands fa-instagram fa-xl"></i>
+                Instagram                
             </a>
             <a class="apresentacao__conteudo__buttons__button" href="https://www.linkedin.com/in/s%C3%A1vio-santos-147b0018a/">
-                <img src="/images/linkedin.png" alt="imagem da logo do LinkedIn">
+                <i style="color: #72FFFF;" class="fa fa-linkedin-square fa-xl"></i>
                 LinkedIn
             </a>
             <a class="apresentacao__conteudo__buttons__button" href="https://github.com/saviodev21/">
-                <img src="/images/gitHub2.png" alt="imagem da logo do GitHub">
+                <i style="color: #72FFFF;" class="fa fa-github fa-xl"></i>
                 GitHub
             </a>
         </div>
@@ -79,5 +83,6 @@
     <footer class="rodape">
         <p>Desenvolvido por Sávio Santos da Silva</p>
     </footer>
+    <script src="/assets/script.js"></script>
 </body>
 </html>

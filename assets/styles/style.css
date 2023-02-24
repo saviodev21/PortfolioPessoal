@@ -111,11 +111,12 @@ body{
 
 
 .light .apresentacao__conteudo__buttons__button{
-    background-color: var(--background);
-    border: none;
+    background-color: #22D4FD;
+    color: #000;
+    border: 2px solid var(--background);
 }
 .light .apresentacao__conteudo__buttons__button:hover{
-    background-color: #3e3736;
+    background-color: var(--cor-hover-blue);
 }
 
 .light .apresentacao__conteudo__kills{
@@ -124,6 +125,10 @@ body{
 .light .apresentacao__conteudo__kills__texto{
     color: var(--black);
 }
+.light .icones{
+    color: #000;
+}
+
 /* fim tema dark */
 
 

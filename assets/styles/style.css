@@ -286,15 +286,12 @@ body{
         /* faz com que o texto preencha todo padding da classe mae*/
         width: auto;
     }
-    .apresentacao__conteudo__texto{
-        font-size: 1.2rem;
-    }
     .apresentacao__conteudo__titulo{
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         font-family: 'Nunito Sans', sans-serif;
     }
     .apresentacao__conteudo__texto{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: var(--white-text);
     }
     .apresentacao__conteudo__buttons__button{
@@ -306,7 +303,7 @@ body{
 
     /* aqui é a parte de skills */
     .apresentacao__conteudo__kills__texto{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .apresentacao__conteudo__kills__li{
         margin: 5% 5% 5% 5%;

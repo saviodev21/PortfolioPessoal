@@ -43,12 +43,6 @@ html{
     color: var(--cor-hover-blue)
 }
 
-/* Alinha os links na direita */
-/* .container-navbar a.right {
-     float: right; 
-} */
-
-
 /* footer  */
 .rodape{
     /* margin-top: 4rem; */
@@ -110,8 +104,6 @@ body{
     color: var(--cor-hover-blue);
     
 }
-
-
 .light .apresentacao__conteudo__buttons__button{
     background-color: #22D4FD;
     color: #000;
@@ -132,7 +124,6 @@ body{
 }
 
 /* fim tema dark */
-
 
 .apresentacao{
     padding: 5% 7%; 
@@ -201,7 +192,6 @@ body{
     width: 28%;
     /* responsividade */
     border-radius: 5%;
-    /* border: 2px solid var(--blue); */
 }
 
 .apresentacao__conteudo__buttons{
@@ -210,9 +200,7 @@ body{
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    /* margin-left: 4rem;
-    margin-right: 4rem;
-    margin-top: 2rem; */
+
     margin: 5rem 0rem;
 }
 .apresentacao__conteudo__subtitulo{
@@ -230,7 +218,7 @@ body{
 
     text-decoration: none;
     /*tirar linha do link*/
-    /* background-color: var(--blue); */
+
     border: 2px solid var(--blue);
     border-radius: .5rem;
 
@@ -249,10 +237,7 @@ body{
     background-color: var(--cor-hover);
 }
 
-
-
-
-
+/* responsividade para telas pequenas */
 @media (max-width: 915px){
     .cabecalho{
         padding: 10%;
@@ -299,6 +284,7 @@ body{
     }
     .apresentacao__imagem{
         width: 28%;
+        height: 7rem;
     }
 
     /* aqui é a parte de skills */
@@ -308,5 +294,4 @@ body{
     .apresentacao__conteudo__kills__li{
         margin: 5% 5% 5% 5%;
     }
-
 }

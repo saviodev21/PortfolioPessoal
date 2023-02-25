@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
-    <title>Projects</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <script src="https://kit.fontawesome.com/4ad1e7b11c.js" crossorigin="anonymous"></script>
+    <title>Projetos</title>
 </head>
+
+<header class="cabecalho">
+    <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        <button id="theme-toggle" title="alterar tema">
+            <i id="tema" class="fa-solid fa-circle-half-stroke fa-xl"></i>
+        </button>
+      </nav>
+</header>
+
 <body>
-    
+    <main class="apresentacao__tecnologias">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo__tecnologias">
+                <strong class="titulo-destaque">Projetos</strong>
+            </h1>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Projeto</th>
+                    <th>Descrição</th>
+                    <th>Imagem</th>
+                  </tr>
+                </thead>
+                <tbody id="projectTableBody">
+                </tbody>
+              </table>
+
+        </section>
+    </main>
+
+    <script src="/assets/script.js"></script>      
 </body>
 </html>

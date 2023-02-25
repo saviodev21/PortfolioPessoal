@@ -75,6 +75,10 @@ body{
     /*cor de texto do tema dark*/
 }
 
+.light .titulo-destaque{
+    color: var(--black);
+}
+
 .light .cabecalho__menu__link{
     color: var(--black);
 }
@@ -133,7 +137,29 @@ body{
     /*separando os elementos section e img*/
     gap: 4rem   ;
 }
+/* CSS da pagina de tecnologias */
+.apresentacao__tecnologias{
+    padding: 5% 7%; 
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    /*separando os elementos section e img*/
+    gap: 4rem   ;
+}
+.apresentacao__conteudo__titulo__tecnologias{
+    font-size: 2rem;
+    font-family: var(--fonte-primaria);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+/*fim do CSS da pagina de tecnologias */
 
+/* CSS da pagina de projetos */
+table {
+    max-width: 800px; /* Largura máxima da tabela */
+    margin: 0 auto; /* Margens automáticas para centralizar a tabela */
+}
+/*Fim do CSS da pagina de projetos */
 .titulo-destaque{
     color: var(--blue);
 }
@@ -263,7 +289,7 @@ body{
 
     }
 }
-@media (min-width: 330px) and (max-width: 740px){
+@media(max-width: 740px){
     .apresentacao{
         padding: 5% 8%; 
     }

@@ -332,13 +332,13 @@ table {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-color: #FFFFFF;
+    background-color: var(--background);
     z-index: 9999;
     }
     #loading-icon {
-    font-size: 60px;
-    color: #4CAF50;
-    animation: rotate 2s linear infinite;
+    font-size: 4.5rem;
+    color: var(--white);
+    animation: rotate 4s linear infinite;
     }
     @keyframes rotate {
     100% {

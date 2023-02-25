@@ -11,6 +11,7 @@
     --background: #171d1f;
     --white-text: #DCD7C9;
     --white: #fff;
+    --fundo-light: #f3f3f3;
     --cor-hover: #3F4E4F;
     --cor-hover-blue: #72FFFF;
 
@@ -68,9 +69,9 @@ body{
     color: var(--white-text);
 }
 
-/* tema dark */
+/* tema Light */
 .light {
-	background-color: #f3f3f3; /*cor de fundo do tema dark*/
+	background-color: var(--fundo-light); 
 	color: var(--black); 
     /*cor de texto do tema dark*/
 }
@@ -89,14 +90,14 @@ body{
     color: #000;
 }
 .light #tema:hover{
-    color: #22D4FD;
+    color: var(--blue);
 }
 
 .light section p{
     color: var(--black);
 }
 
-/* cor do button */
+/* cor da tag button */
 #theme-toggle{
     border: none;
     background-color:transparent;
@@ -109,7 +110,7 @@ body{
     
 }
 .light .apresentacao__conteudo__buttons__button{
-    background-color: #22D4FD;
+    background-color: var(--blue);
     color: #000;
     border: 2px solid var(--background);
 }
@@ -124,7 +125,7 @@ body{
     color: var(--black);
 }
 .light .icones{
-    color: #000;
+    color: var(--black);
 }
 
 /* fim tema dark */

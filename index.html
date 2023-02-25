@@ -1,16 +1,21 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
-    <link rel="stylesheet" href="/assets/styles/style.css">
     <script src="https://kit.fontawesome.com/4ad1e7b11c.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <title>Portfolio</title>
 </head>
 <body>
+    <!-- Div para a tela de loading -->
+    <div id="loading-screen">
+        <!-- Ícone de carregamento -->
+        <i id="loading-icon" class="fa fa-spinner fa-spin"></i>
+    </div>
+  
+      <!-- Conteúdo da página -->
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
@@ -61,6 +66,17 @@
     <footer class="rodape">
             <p>Desenvolvido por Sávio Santos da Silva.</p>
     </footer>
-    <script src="/assets/script.js"></script>
+  
+    <!-- Inclui a biblioteca Font Awesome para o ícone de carregamento -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+  
+    <!-- Código JavaScript para esconder a tela de loading quando a página carregar -->
+    <script>
+        window.addEventListener('load', function() {
+	var loadingScreen = document.getElementById("loading-screen");
+	    loadingScreen.style.display = 'none';
+    });
+    </script>
+
 </body>
 </html>

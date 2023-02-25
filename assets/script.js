@@ -28,14 +28,19 @@ const projects = [
   const projectTableBody = document.querySelector("#projectTableBody");
   
   projects.forEach(project => {
+	// Cria uma nova linha
 	const tr = document.createElement("tr");
-  
+	
+    // Cria uma célula com o nome do projeto
 	const tdName = document.createElement("td");
 	tdName.textContent = project.name;
-  
+	
+    // Cria uma célula com a descrição do projeto
 	const tdDescription = document.createElement("td");
 	tdDescription.textContent = project.description;
   
+	
+	// Cria uma célula com a imagem do projeto
 	const tdImage = document.createElement("td");
 	const img = document.createElement("img");
 	img.src = project.image;
@@ -48,6 +53,10 @@ const projects = [
 	tr.appendChild(tdDescription);
 	tr.appendChild(tdImage);
   
+	
+	// Adiciona a linha na tabela
 	projectTableBody.appendChild(tr);
   });
   
+
+

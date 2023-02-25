@@ -321,3 +321,28 @@ table {
         margin: 5% 5% 5% 5%;
     }
 }
+
+/* Estilos para a tela de loading */
+#loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+    z-index: 9999;
+    }
+    #loading-icon {
+    font-size: 60px;
+    color: #4CAF50;
+    animation: rotate 2s linear infinite;
+    }
+    @keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/*Fim dos Estilos para a tela de loading */

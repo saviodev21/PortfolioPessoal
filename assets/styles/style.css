@@ -338,7 +338,7 @@ table {
     #loading-icon {
     font-size: 4.5rem;
     color: var(--white);
-    animation: rotate 4s linear infinite;
+    animation: rotate 2s linear infinite;
     }
     @keyframes rotate {
     100% {

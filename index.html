@@ -72,10 +72,9 @@
   
     <!-- Código JavaScript para esconder a tela de loading quando a página carregar -->
     <script>
-        window.addEventListener('load', function() {
-	var loadingScreen = document.getElementById("loading-screen");
-	    loadingScreen.style.display = 'none';
-    });
+        setTimeout(function(){
+            document.getElementById('loading-screen').style.display = 'none';
+        }, 2000);
     </script>
 
 </body>

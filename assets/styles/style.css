@@ -73,7 +73,7 @@ body{
 .light {
 	background-color: var(--fundo-light); 
 	color: var(--black); 
-    /*cor de texto do tema dark*/
+    /*cor de texto do tema light*/
 }
 
 .light .titulo-destaque{
